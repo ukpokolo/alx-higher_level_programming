@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# Author - Bamidele Adefolaju
 
-for i in range(0, 99):
-    print("{0:d} = 0x{0:x}".format(i))
+"""Print numbers 0 to 98 in decimal and hexadecimal."""
+for number in range(0, 99):
+    print("{} = {}".format(number, hex(number)))
